@@ -1,32 +1,78 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
- h1{
-    font-size: 50px;
- }
- #col{
-    color: orange;
- }
- section{
-    display: flex;
- }
- .rak{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
- }
- .half-width{
-    width: 50%; 
-    padding: 40px;
- }
- .half-width img{
-    width: 80%;
- }
- .bgimage{
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(orange,tomato);
-    font-weight: 700;
-    padding: 10px 40px;
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.col {
+  color: orange;
+}
+.fu {
+  display: flex;
+  margin-bottom: 100px;
+}
+.rak {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.half-width {
+  width: 50%;
+  padding-left: 100px;
+  padding-top: 40px;
+  text-align: justify;
+}
+.half-width img {
+  width: 80%;
+}
+.bgimage {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(orange, tomato);
+  font-weight: 700;
+  padding: 10px 40px;
+}
 
- }
+.dream {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+p {
+  line-height: 30px;
+}
+.fexi-cont {
+  display: flex;
+}
+.exp-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.hu {
+  width: 50%;
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  /* border:10px solid black; */
+}
+
+#cu {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#baby {
+  border-left: 7px solid;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+}
